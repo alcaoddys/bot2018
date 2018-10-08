@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 
 from linepy import *
+from akad.ttypes import *
+from multiprocessing import Pool, Process
+from akad.ttypes import ContentType as Type
 from datetime import datetime
 from time import sleep
 from bs4 import BeautifulSoup
