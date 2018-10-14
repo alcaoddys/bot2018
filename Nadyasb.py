@@ -377,7 +377,7 @@ def lineBot(op):
 #==============================================================================#
                 elif text.lower() == 'speed':
                     start = time.time()
-                    nadya.sendMessage(to, "Prosses...")
+                    nadya.sendMessage(to, "Please wait...")
                     elapsed_time = time.time() - start
                     nadya.sendMessage(to,format(str(elapsed_time)))
                 elif text.lower() == 'restart':
