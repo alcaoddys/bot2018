@@ -462,10 +462,10 @@ def lineBot(op):
                     settings["checkSticker"] = False
                     nadya.sendMessage(to, "Berhasil menonaktifkan Check Details Sticker")
                 elif text.lower() == 'detectmention on':
-                    settings["datectMention"] = True
+                    settings["detectMention"] = True
                     nadya.sendMessage(to, "Berhasil mengaktifkan Detect Mention")
                 elif text.lower() == 'detectmention off':
-                    settings["datectMention"] = False
+                    settings["detectMention"] = False
                     nadya.sendMessage(to, "Berhasil menonaktifkan Detect Mention")
                 elif text.lower() == 'clonecontact':
                     settings["copy"] = True
