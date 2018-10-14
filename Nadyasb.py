@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 from linepy import *
 from akad.ttypes import *
 from multiprocessing import Pool, Process
@@ -367,7 +366,7 @@ def lineBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     nadya.sendMessage(to, str(helpMessage))
-                    nadya.sendContact(to, "u14f64e139a3817afaabe27d237afb36b")
+                    nadya.sendContact(to, "u5ef5f78b1e61b2902f27d0290844626e")
                 elif text.lower() == 'texttospeech':
                     helpTextToSpeech = helptexttospeech()
                     nadya.sendMessage(to, str(helpTextToSpeech))
@@ -393,7 +392,7 @@ def lineBot(op):
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner = "u14f64e139a3817afaabe27d237afb36b"
+                        owner = "u5ef5f78b1e61b2902f27d0290844626e"
                         creator = nadya.getContact(owner)
                         contact = nadya.getContact(nadyaMID)
                         grouplist = nadya.getGroupIdsJoined()
